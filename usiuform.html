@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USIU Advanced Web Development Evaluation Form</title>
+</head>
+<body>
+
+    <h2>USIU Advanced Web Development Evaluation Form</h2>
+
+    <form action="#" method="post">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" name="studentId" required><br><br>
+
+        <label for="email">USIU Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="github">GitHub Profile URL:</label>
+        <input type="url" id="github" name="github"><br><br>
+
+        <label for="phone">Local Phone Number (WhatsApp-enabled):</label>
+        <input type="tel" id="phone" name="phone" placeholder="+2547XX-XXX-XXX"><br><br>
+
+        <label for="problemSolving">1. Nairobi-Specific Problem Solving:</label>
+        <textarea id="problemSolving" name="problemSolving" placeholder="Describe your API security and scalability solution for Nairobi matatu integration"></textarea><br><br>
+
+        <label for="framework">2. Select the best JavaScript framework for real-time Nairobi news aggregation:</label>
+        <select id="framework" name="framework">
+            <option value="react">React.js</option>
+            <option value="vue">Vue.js</option>
+            <option value="angular">Angular</option>
+        </select><br><br>
+
+        <label>3. Which Laravel optimization method is best for a Nairobi e-commerce startup?</label><br>
+        <input type="radio" id="databaseCaching" name="laravelOptimization" value="Database Caching">
+        <label for="databaseCaching">Database Caching</label><br>
+
+        <input type="radio" id="queuesJobs" name="laravelOptimization" value="Queues & Job Scheduling" checked>
+        <label for="queuesJobs">Queues & Job Scheduling</label><br>
+
+        <input type="radio" id="horizontalScaling" name="laravelOptimization" value="Horizontal Scaling">
+        <label for="horizontalScaling">Horizontal Scaling</label><br><br>
+
+        <label for="webProject">4. Upload a link to a past web project (PDF/Screenshot):</label>
+        <input type="file" id="webProject" name="webProject"><br><br>
+
+        <label for="hostingProvider">5. Select a Kenyan hosting provider that supports M-Pesa payments:</label>
+        <select id="hostingProvider" name="hostingProvider">
+            <option value="safaricom">Safaricom Cloud</option>
+            <option value="truehost">Truehost Kenya</option>
+            <option value="hostpinnacle">HostPinnacle</option>
+        </select><br><br>
+
+        <label for="optimization">6. How would you optimize a web app for Nairobi users on 2G/3G networks?</label>
+        <textarea id="optimization" name="optimization" placeholder="Explain using PWA, lazy loading, and CDN strategies"></textarea><br><br>
+
+        <label for="techStartups">7. Name two Kenyan tech startups actively hiring full-stack developers:</label>
+        <input type="text" id="techStartups" name="techStartups" placeholder="Example: Cellulant, Twiga Foods"><br><br>
+
+        <label for="freelancingPlatforms">8. Name two Kenyan freelancing platforms for web developers besides Upwork/Fiverr:</label>
+        <input type="text" id="freelancingPlatforms" name="freelancingPlatforms" placeholder="Example: Kuhustle, WorkPay Africa"><br><br>
+
+        <input type="checkbox" id="certify" name="certify" required>
+        <label for="certify">I certify that all responses are original and not AI-generated.</label><br><br>
+
+        <button type="submit">Submit Form</button>
+    </form>
+
+</body>
+</html>
